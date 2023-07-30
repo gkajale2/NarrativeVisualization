@@ -1,0 +1,87 @@
+.btn-group button {
+  background-color: white; 
+  border: 1px solid black; 
+  color: black; 
+  padding: 10px 24px; 
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:hover {
+  background-color: silver;
+}
+
+
+  .AllButtons {
+    width: 710px;
+}
+
+.AllButtons .leftColumn {
+    width: 200px;
+    height: 520px;
+    background: oldlace;
+    float: left;
+}
+
+.AllButtons .rightColumn {
+    width: 510px;
+    height: 520px;
+    background: azure;
+    float: left;
+}
+
+circle:hover {
+  fill: black;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 5px;
+  width: 164px;
+  height: 98px;
+  visibility: hidden;
+  color: black;
+  background-color: white;
+  font-size: 12px;
+  -webkit-border-radius: 10px;
+  -moz-box-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
